@@ -1,0 +1,24 @@
+nav	{
+	width: 98%;	
+	background-color: lightgrey;
+	padding: 0.50%;	
+	overflow: hidden;
+	font-family: arial, sans-serif;
+}
+
+nav input {
+	width: 40%;
+	float: left;	
+	height: 2em;
+
+}
+
+button{
+	width: 10%;
+	float: left;
+	margin-left: 15px;
+	height: 2.4em;
+}
+
+
+
