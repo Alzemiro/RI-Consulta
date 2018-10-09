@@ -6,7 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="css/tabela.css">
 		<link rel="stylesheet" type="text/css" href="css/menu.css">
 		<script type="text/javascript" src="js/main.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="js/jquery-3.3.1.min.js"></script>
 	</head>
 	<body>
 		<!-- MENU DE NAVEGAÇÃO -->
@@ -15,12 +15,12 @@
 				<input type="text" id="busca" list="dlNomes" placeholder="Pesquisar um documento...">
 				<datalist id="dlNomes">				
 				</datalist>
-				<button onclick="teste()">Buscar</button>
+				<button onclick="DocList()">Buscar</button>
 			
 		</nav>
 		<!-- FIM MENU DE NAVEGAÇÃO -->
 		<!-- LISTA DE DOCUMENTOS -->
-		<div id="div1">
+		<div id="div1" ondload="limparUndefiend()">
 			<h2 style="font-family: arial, sans-serif;" id="titH2"></h2>
 			<table>
 				<thead>
